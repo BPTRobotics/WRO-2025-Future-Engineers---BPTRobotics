@@ -45,7 +45,7 @@
 **Week 5: Hardware Assembly**
 
 * **Objective**: Create robot hardware components.
-* **Tasks":
+* **Tasks**:
 
 * Create and build the wood and plastic base.
 * Add and wire the motor controller, Raspberry Pi, servo motor, and sensors.
