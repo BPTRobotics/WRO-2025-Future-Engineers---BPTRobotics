@@ -2,32 +2,32 @@
 
 ###  Month 1: Design & Planning
 
-**Week 1: Project Kickoff & Requirements Gathering**
+**Week 1: Project Start & Requirements Getting**
 
-* **Objective**: Establish project scope, goals, and deliverables.
+* **Objective**: Know the project scope, goals, and requirements needed.
 * **Tasks**:
 
-  * Establish project schedule and milestones.
-  * Identify key elements: Raspberry Pi, batteries (18650), camera, motor controller, distance sensors, servo motor.
-  * Determine software requirements: Python libraries, dependencies, and development tools.
+  * Know project schedule and goals (reading the rules).
+  * Identify key things: Raspberry Pi, batteries (18650), camera, motor controller, distance sensors, servo motor.
+  * Get software requirements: Python libraries, dependencies, and development tools.
 
 **Week 2: System Architecture Design**
 
-* **Objective**: Develop a high-level system architecture.
+* **Objective**: Develop a system architecture.
 * **Tasks**:
 
   * Develop block diagrams illustrating component interaction. (used MIRO)
-  * Develop data flow between sensors, Raspberry Pi, and actuators.
-  * Define communication protocols (e.g., I2C, GPIO).
+  * Develop data flow between sensors, Raspberry Pi. (It was hard, especially with the TCS color sensor)
+  * Know communication protocols (e.g., I2C, GPIO). (I had a lot of work with the PINS because I had to use multiple I2Cs)
 
 **Week 3: Mechanical Design**
 
-* **Objective**: Design the physical structure of the robot.
+* **Objective**: Design the physical part of the robot.
 * **Tasks**:
 
-  * Design CAD models for wooden base and plastic base.
-  * Develop mounting solutions for electronics and sensors.
-* Plan cable management and power distribution.
+  * Design CAD models for wooden and plastic base.
+  * Develop movable solutions for electronics and sensors. [so they can be easily detached]
+* Plan cable management and power distribution. (but it didn't take much time)
 
 **Week 4: Electrical Design**
 
@@ -44,19 +44,19 @@
 
 **Week 5: Hardware Assembly**
 
-* **Objective**: Assemble robot hardware components.
+* **Objective**: Create robot hardware components.
 * **Tasks":
 
-* Assemble and build the wood and plastic base.
-* Install and wire the motor controller, Raspberry Pi, servo motor, and sensors.
-* Install the power wires and battery.
+* Create and build the wood and plastic base.
+* Add and wire the motor controller, Raspberry Pi, servo motor, and sensors.
+* Add the power wires and battery.
 
 **Week 6: Part 1 Software Development**
 
 * **Goal**: Develop the initial software components.
 * **Tasks**:
 
-  * Set up the development environment on the Raspberry Pi.
+  * Setup the development environment on the Raspberry Pi.
 * Implement basic motor control and servo steering features. (can be viewed in Motor.py, and Steer.py)
 * Write sensor reading scripts for distance sensors, as well as camera. (specifically for the color sensor.)
 
@@ -104,18 +104,17 @@
 * **Objective**: Document the entire development process.
 * **Tasks**:
 
-  * Compile design documents, schematics, and CAD models.
-* Maintain software architecture and codebase records.
+  * Get to know: design documents, schematics, and CAD models.
+   *& software architecture and codebase records.
 * Create user manuals and maintenance guides.
 
 **Week 12: Final Review & Deployment**
 
-* **Task**: Finish the project and prepare for deployment.
+* **Task**: Finish the project and prepare for deployment to the repo.
 * **Activities**:
 
-  * Conduct a final system review and verify that all objectives are met.
-  * Create a plan for deployment for deployment in real-world situations.
-  * Present the project to stakeholders and obtain feedback.
+  * Create the final system review and verify that all objectives are met.
+  * Create a plan for real-world situations.
 
 ---
 
